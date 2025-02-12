@@ -1,8 +1,11 @@
-# React + Vite
+# fake store api
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple ReactJS application that demonstrates adding products to a cart using a modal interface.  
+It fetches product data from the Fake Store API.
+## Usage
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  Browse the list of products.
+  Click "Add to Cart" to add a product to your cart.
+  Click the "Cart" button in the navbar to open the cart modal.
+  Remove items from the cart by clicking the "Remove" button.
+  Close the modal.
